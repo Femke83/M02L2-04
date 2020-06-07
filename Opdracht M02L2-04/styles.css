@@ -1,0 +1,67 @@
+@import url(<https://fonts.googleapis.com/css?family=Oswald:700>);
+
+body     {
+  /*background:#231F20;*/
+  text-align:center;
+}
+
+h1         {
+  color:#FFF;
+  background-color: black;
+  font-family:'Oswald';
+  font-weight:700;
+  position:relative;  
+  margin:30px auto;
+  text-transform:uppercase;
+  display: inline-block;
+  padding:15px;
+  
+}
+h1::before {
+    content:'';
+    background:#4A90E2;
+    border-radius: 200px 0px 0px 200px;
+    -moz-border-radius: 200px 0px 0px 200px;
+    -webkit-border-radius: 200px 0px 0px 200px;
+    border: 0px solid #000000;
+    display: inline-block;
+    width: 20px;
+    height:25px;
+    margin-right: 15px;
+    
+
+}
+h1::after {
+    content:'';
+    background:#4A90E2;
+    border-radius: 0px 200px 200px 0px;
+    -moz-border-radius: 0px 200px 200px 0px;
+    -webkit-border-radius: 0px 200px 200px 0px;
+    border: 0px solid #000000;
+    display: inline-block;
+    width: 20px;
+    height:25px;
+    margin-left: 15px;
+    
+
+}
+/*
+selector voor het linker halve cirkeltje, selector voor het rechter halve cirkeltje {
+// gezamelijke eigenschappen van de halve cirkels: 
+// - het is Winc blauw ... background:#4A90E2;
+// - content is empty string 
+// - display... block? Inline-block?
+// - aanta px hoog 
+// - aantal px breed 
+// - absolute positie 
+}
+
+selector voor het linker halve cirkeltje {  
+// border radius, generator: <https://www.cssmatic.com/border-radius> 
+// Positioneer je halve rondje met left en top
+}
+
+selector voor het rechter halve cirkeltje {  
+// border radius, generator: <https://www.cssmatic.com/border-radius> 
+// Positioneer je halve rondje met left en top 
+}*/
